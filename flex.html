@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .header {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .child {
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+            background-color: bisque;
+            font-size: 30px;
+            flex-grow: 1;
+        }
+
+        #search {
+            flex-grow: 2;
+        }
+
+        #orders {
+            flex-grow: 3;
+        }
+    </style>
+</head>
+
+<body style="background-image: url('a.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100% 100%;">
+    <div class="header">
+        <div class="child">
+            <img src="./OIP.jpg" width="180px" height="80px">
+        </div>
+        <div class="child">address</div>
+        <div id="search" class="child">
+            <input text="text">
+        </div>
+
+        <div class="child">languages</div>
+        <div class="child">wishlist</div>
+        <div id="orders" class="child">orders</div>
+    </div>
+    <h1 style="background-color: aliceblue;">
+        <center>Amazon</center>
+    </h1>
+    <p style="background-color: aliceblue;">Amazon is the world’s largest e-commerce company. It was founded by Jeff
+        Bezos in
+        1994
+        (Amazon, n.d.) and the
+        website went online on July 16, 1995 (Webley, 2010). Amazon has its headquarter in Seattle, Washington and
+        several offices on all continents. (Amazon, n.d.) At the beginning Amazon sold only books and after a period of
+        development</p>
+</body>
+
+</html>
